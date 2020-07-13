@@ -1,0 +1,78 @@
+body {
+    background-image: url("mainBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+                    /*Styling for landing*/
+header {
+    text-align: center;
+}
+
+.search {
+    border: 2px solid rgb(77, 77, 77);
+    border-radius: 8px;
+    outline: none;
+    background-color: rgba(245, 245, 245, 0.623);
+}
+
+.citySearch {
+    margin-top: 20px;
+}
+
+.enterButton {
+    background-color: rgba(24, 178, 224, 0.623);
+    color: rgb(77, 77, 77);
+    display: inline;
+    margin: auto;
+}
+
+.enterButton:focus {
+    outline: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { 
+    display: none;
+}
+
+                    /* Animaion for landing page */
+
+.welcomeText {
+    position: relative;
+    animation-name: welcomeText;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.welcomeText {animation-timing-function: ease;}
+
+@keyframes welcomeText {
+    from{top: 0px; opacity: 0%;}
+    to{top: 250px; opacity: 100%;}
+}
+
+.search {
+    position: relative;
+    animation-name: search;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.search {animation-timing-function: ease;}
+
+@keyframes search {
+    from{top: 500px; opacity: 0%;}
+    to{top: 260px; opacity: 100%;}
+}
+
+
+
+
+.temperature {
+    text-align: center;
+}
