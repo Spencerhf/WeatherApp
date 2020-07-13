@@ -24,7 +24,7 @@
             var feelsLike = document.getElementById('feelsLike');
 
 
-                                //This function is retrieving user input.
+                            //This function is retrieving user input.
 
             function weatherData() {
 
@@ -41,6 +41,7 @@
                 }); 
             }
 
+                            //Data validation functions
             function testInputZip(zipSearch) {
                 if(isNaN(zipSearch) || zipSearch == '' || zipSearch.length != 5) {
                         alert('Please enter a valid zipcode');
@@ -52,7 +53,6 @@
                     });
                 }
             }
-
             function testInputCity(citySearch) {
                 if(citySearch == '') {
                     alert('Please enter a valid city');
