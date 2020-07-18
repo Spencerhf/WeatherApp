@@ -40,39 +40,6 @@ input[type="search"]::-webkit-search-results-decoration {
     display: none;
 }
 
-                    /* Animaion for landing page */
-
-.welcomeText {
-    position: relative;
-    animation-name: welcomeText;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-.welcomeText {animation-timing-function: ease;}
-
-@keyframes welcomeText {
-    from{top: 0px; opacity: 0%;}
-    to{top: 250px; opacity: 100%;}
-}
-
-.search {
-    position: relative;
-    animation-name: search;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-.search {animation-timing-function: ease;}
-
-@keyframes search {
-    from{top: 500px; opacity: 0%;}
-    to{top: 260px; opacity: 100%;}
-}
-
-
-
-
 .temperature {
     text-align: center;
 }
